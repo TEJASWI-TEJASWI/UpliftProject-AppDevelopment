@@ -8,16 +8,23 @@
 `tar -zxvf opencv_contrib.tar.gz` <br/>
 `cd opencv-4.0.0` <br/>
 `mkdir build ` <br/>
-`cmake -D CMAKE_BUILD_TYPE=RELEASE \
-	-D CMAKE_INSTALL_PREFIX=/usr/local \
-	-D INSTALL_PYTHON_EXAMPLES=OFF \
-  -D PYTHON_INCLUDE_DIR=/usr/include/python2.7  \
-  -D PYTHON_LIBRARY=/usr/lib/python2.7/config/libpython2.7.so  \
-	-D INSTALL_C_EXAMPLES=OFF \
-	-D OPENCV_ENABLE_NONFREE=ON \
-	-D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules \
+`cmake -D CMAKE_BUILD_TYPE=RELEASE \ <br/>
+	-D CMAKE_INSTALL_PREFIX=/usr/local \<br/>
+	-D INSTALL_PYTHON_EXAMPLES=OFF \<br/>
+  	-D PYTHON_INCLUDE_DIR=/usr/include/python2.7  \<br/>
+ 	-D PYTHON_LIBRARY=/usr/lib/python2.7/config/libpython2.7.so  \<br/>
+	-D INSTALL_C_EXAMPLES=OFF \<br/>
+	-D OPENCV_ENABLE_NONFREE=ON \<br/>
+	-D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules \<br/>
 	-D BUILD_EXAMPLES=ON .. ` <br/>
 `` <br/>
+See the note below for errors at this step <br/>
+`make -j4 `<br/>
+` sudo make install`<br/>
+
+copy the pkgconfig file in opencv.pc to /usr/local/lib/pkgconfig, and name it opencv4.pc:<br/>
+`cp /full/path/to/opencv-4.0.0/build/lib/pkgconfig/opencv.pc /usr/local/lib/pkgconfig/opencv4.pc`<br/>
+
 Note: During the build I had cmake error due to contrib path, following is the snapshot of the error <br/>
 ![cmakeError](./Images/cmakeError.png)
 <br/> 
