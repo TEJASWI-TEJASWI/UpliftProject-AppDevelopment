@@ -24,5 +24,5 @@ Note: During the build I had cmake error due to contrib path, following is the s
 I implemented a simple fix to rename the contrib folder from <br/> 
 ![fix](./Images/fix.png) <br/> 
 to <br/> 
-![fix1](./Images/NameChange.png) <br/> 
+![fix1](./Images/nameChange.png) <br/> 
 The cmake did fail few tests but I think it is built correctly. 
