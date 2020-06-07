@@ -8,15 +8,7 @@
 * `tar -zxvf opencv_contrib.tar.gz` <br/>
 * `cd opencv-4.0.0` <br/>
 * `mkdir build ` <br/>
-* `cmake -D CMAKE_BUILD_TYPE=RELEASE \ <br/>
-	-D CMAKE_INSTALL_PREFIX=/usr/local \<br/>
-	-D INSTALL_PYTHON_EXAMPLES=OFF \<br/>
-  	-D PYTHON_INCLUDE_DIR=/usr/include/python2.7  \<br/>
- 	-D PYTHON_LIBRARY=/usr/lib/python2.7/config/libpython2.7.so  \<br/>
-	-D INSTALL_C_EXAMPLES=OFF \<br/>
-	-D OPENCV_ENABLE_NONFREE=ON \<br/>
-	-D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules \<br/>
-	-D BUILD_EXAMPLES=ON .. ` <br/>
+* `cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local/opencv4 -D OPENCV_EXTRA_MODULES_PATH=/path_to/opencv_contrib/modules .. ` <br/>
 See the **Note1** below for errors at this step <br/>
 * `make -j4 `<br/>
 * `sudo make install`<br/>
