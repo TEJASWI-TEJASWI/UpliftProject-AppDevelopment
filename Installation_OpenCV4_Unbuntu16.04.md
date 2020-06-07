@@ -8,5 +8,21 @@
 `tar -zxvf opencv_contrib.tar.gz` <br/>
 `cd opencv-4.0.0` <br/>
 `mkdir build ` <br/>
-`cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/full/path/to/opencv-4.0.0/build -D INSTALL_C_EXAMPLES=ON -D BUILD_EXAMPLES=ON -D OPENCV_EXTRA_MODULES_PATH=/full/path/to/opencv_contrib-4.0.0/modules ../ ` <br/>
+`cmake -D CMAKE_BUILD_TYPE=RELEASE \
+	-D CMAKE_INSTALL_PREFIX=/usr/local \
+	-D INSTALL_PYTHON_EXAMPLES=OFF \
+  -D PYTHON_INCLUDE_DIR=/usr/include/python2.7  \
+  -D PYTHON_LIBRARY=/usr/lib/python2.7/config/libpython2.7.so  \
+	-D INSTALL_C_EXAMPLES=OFF \
+	-D OPENCV_ENABLE_NONFREE=ON \
+	-D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules \
+	-D BUILD_EXAMPLES=ON .. ` <br/>
 `` <br/>
+Note: During the build I had cmake error due to contrib path, following is the snapshot of the error <br/>
+![cmakeError](./Images/cmakeError.png)
+<br/> 
+I implemented a simple fix to rename the contrib folder from <br/> 
+![fix](./Images/fix.png) <br/> 
+to <br/> 
+![fix1](./Images/NameChange.png) <br/> 
+The cmake did fail few tests but I think it is built correctly. 
