@@ -1,7 +1,7 @@
 ### Install dependancies <br/>
 `sudo apt-get -y install libopencv-dev build-essential cmake libdc1394-22 libdc1394-22-dev libjpeg-dev libpng12-dev libtiff5-dev libjasper-dev libavcodec-dev libavformat-dev libswscale-dev libxine2-dev libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev libv4l-dev libtbb-dev libqt4-dev libmp3lame-dev libopencore-amrnb-dev libopencore-amrwb-dev libtheora-dev libvorbis-dev libxvidcore-dev x264 v4l-utils` <br/>
 
-### Download and build opencv4 <br/> 
+### To download and build opencv4 run in terminal the following commands <br/> 
 `wget "https://github.com/opencv/opencv/archive/4.0.0.tar.gz" -O opencv.tar.gz` <br/>
 `wget "https://github.com/opencv/opencv_contrib/archive/4.0.0.tar.gz" -O opencv_contrib.tar.gz ` <br/>
 `tar -zxvf opencv.tar.gz ` <br/>
@@ -17,10 +17,9 @@
 	-D OPENCV_ENABLE_NONFREE=ON \<br/>
 	-D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules \<br/>
 	-D BUILD_EXAMPLES=ON .. ` <br/>
-`` <br/>
 See the note below for errors at this step <br/>
 `make -j4 `<br/>
-` sudo make install`<br/>
+`sudo make install`<br/>
 
 copy the pkgconfig file in opencv.pc to /usr/local/lib/pkgconfig, and name it opencv4.pc:<br/>
 `cp /full/path/to/opencv-4.0.0/build/lib/pkgconfig/opencv.pc /usr/local/lib/pkgconfig/opencv4.pc`<br/>
