@@ -19,7 +19,7 @@
 	-D BUILD_EXAMPLES=ON .. ` <br/>
 See the note below for errors at this step <br/>
 * `make -j4 `<br/>
-*`sudo make install`<br/>
+* `sudo make install`<br/>
 
 copy the pkgconfig file in opencv.pc to /usr/local/lib/pkgconfig, and name it opencv4.pc:<br/>
 `cp /full/path/to/opencv-4.0.0/build/lib/pkgconfig/opencv.pc /usr/local/lib/pkgconfig/opencv4.pc`<br/>
