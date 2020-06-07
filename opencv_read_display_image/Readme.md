@@ -4,6 +4,8 @@
 * `cd build` <br/>
 * `./mainExample /path_to_image/tweety.png`  <br/>
  <br/>
+ 
+# Fixing .so error  
 If there is an error of missing **.so** files. <br/>
 I had an error of missing **libopencv_highgui.so.4.0** you can search where exactly your file is by the following command  <br/>
 `sudo find / -name "libopencv_highgui.so.4.0"` <br/>
