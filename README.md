@@ -11,3 +11,4 @@ If you are using Ubuntu16.04 <br/>
 <br/>
 This app is created as a part of The Uplift Project and current members of this project are: <br/>
 1. Dimple Bhuta (github profile id: DimpleB0501)
+2. Harshita Mangla (github profile id: mharshita)
