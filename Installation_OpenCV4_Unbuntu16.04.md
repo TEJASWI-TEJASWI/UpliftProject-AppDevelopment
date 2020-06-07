@@ -24,7 +24,7 @@ See the **Note1** below for errors at this step <br/>
 copy the pkgconfig file in opencv.pc to /usr/local/lib/pkgconfig, and name it opencv4.pc:<br/>
 `cp /full/path/to/opencv-4.0.0/build/lib/pkgconfig/opencv.pc /usr/local/lib/pkgconfig/opencv4.pc`<br/>
 
-##### Note1<br/>
+### Note1
 During the build I had cmake error due to contrib path, following is the snapshot of the error <br/>
 ![cmakeError](./Images/cmakeError.png)
 <br/> 
