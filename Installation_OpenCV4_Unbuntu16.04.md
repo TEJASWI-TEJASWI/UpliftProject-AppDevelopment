@@ -17,14 +17,15 @@
 	-D OPENCV_ENABLE_NONFREE=ON \<br/>
 	-D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules \<br/>
 	-D BUILD_EXAMPLES=ON .. ` <br/>
-See the note below for errors at this step <br/>
+See the **Note1** below for errors at this step <br/>
 * `make -j4 `<br/>
 * `sudo make install`<br/>
 
 copy the pkgconfig file in opencv.pc to /usr/local/lib/pkgconfig, and name it opencv4.pc:<br/>
 `cp /full/path/to/opencv-4.0.0/build/lib/pkgconfig/opencv.pc /usr/local/lib/pkgconfig/opencv4.pc`<br/>
 
-Note: During the build I had cmake error due to contrib path, following is the snapshot of the error <br/>
+##### Note1<br/>
+During the build I had cmake error due to contrib path, following is the snapshot of the error <br/>
 ![cmakeError](./Images/cmakeError.png)
 <br/> 
 I implemented a simple fix to rename the contrib folder from <br/> 
