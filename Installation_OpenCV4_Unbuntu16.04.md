@@ -21,11 +21,6 @@ See the **Note1** below for errors at this step <br/>
 * `make -j4 `<br/>
 * `sudo make install`<br/>
 
-To check the installation is working properly, run: <br/>
-* `cd /path_to/opencv-4.0.0/samples/cpp`<br/
-* `g++ -ggdb ``pkg-config --cflags --libs opencv4`` opencv_version.cpp -o /tmp/opencv_version && /tmp/opencv_version` <br/>
-
-
 **Note1**: During the build I had cmake error due to contrib path, following is the snapshot of the error <br/>
 ![cmakeError](./Images/cmakeError.png)
 <br/> 
