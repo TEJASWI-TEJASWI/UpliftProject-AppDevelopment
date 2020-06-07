@@ -24,6 +24,9 @@ See the **Note1** below for errors at this step <br/>
 copy the pkgconfig file in opencv.pc to /usr/local/lib/pkgconfig, and name it opencv4.pc:<br/>
 `cp /full/path/to/opencv-4.0.0/build/lib/pkgconfig/opencv.pc /usr/local/lib/pkgconfig/opencv4.pc`<br/>
 
+To check the installation is working properly, run: <br/>
+`cd /path_to/opencv-4.0.0/samples/cpp`<br/>
+`g++ -ggdb `pkg-config --cflags --libs opencv4` opencv_version.cpp -o /tmp/opencv_version && /tmp/opencv_version`<br/>
 **Note1**: During the build I had cmake error due to contrib path, following is the snapshot of the error <br/>
 ![cmakeError](./Images/cmakeError.png)
 <br/> 
@@ -31,4 +34,3 @@ I implemented a simple fix to rename the contrib folder from <br/>
 ![fix](./Images/fix.png) <br/> 
 to <br/> 
 ![fix1](./Images/nameChange.png) <br/> 
-The cmake did fail few tests but I think it is built correctly. 
