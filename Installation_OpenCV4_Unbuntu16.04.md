@@ -8,6 +8,7 @@
 * `tar -zxvf opencv_contrib.tar.gz` <br/>
 * `cd opencv-4.0.0` <br/>
 * `mkdir build ` <br/>
+* `cd build ` <br/>
 * `cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local/opencv4 -D OPENCV_EXTRA_MODULES_PATH=/path_to/opencv_contrib/modules .. ` <br/>
 See the **Note1** below for errors at this step <br/>
 * `make -j4 `<br/>
