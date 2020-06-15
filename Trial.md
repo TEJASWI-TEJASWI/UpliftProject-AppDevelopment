@@ -23,11 +23,13 @@ We will be updating codes and weekly tasks regularly on this github link. <br/>
 |  archibanerjee1999@gmail.com |  dimple.bhuta@gmail.com | esha.sc1990@gmail.com  |
 
 
-
-| Mentors  |
-| :---:   | :-: | :-: |
-|Archishman Bandyopadhyay | Dimple Bhuta | Esha Gupta |
-|archibanerjee1999@gmail.com | dimple.bhuta@gmail.com | esha.sc1990@gmail.com |
-
-
-
+||  Participants  ||  
+|---|---|---|
+| Shilpa Santpure  | Harshita Mangla  |  Lavanya jureddi |
+| santpureshilpa@gmail.com |  manglaharshita@gmail.com |jureddilavanya261@gmail.com |
+| Battula Pavan Kumar Reddy  | Kunal Bashist |  Shilpy Sharma |
+| santpureshilpa@gmail.com |  manglaharshita@gmail.com |shilpysharma0102@gmail.com |
+|Shalu Rajput  | Pranoti Gaikwad |  Tejaswi |
+| shalurajput9951@gmail.com |  gaikwadpranoti77@gmail.com |2018ucs0090@iitjammu.ac.in|
+|Deepali Takyar  | Rahul Arora |  |
+| takyar.deepali30@gmail.com |  rayrayc786@gmail.com ||
