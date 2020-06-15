@@ -17,6 +17,13 @@ We will be updating codes and weekly tasks regularly on this github link. <br/>
 
 ## Group Members (team2-cc02)
 
+|   |   |   |   |   |
+|---|---|---|---|---|
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+
+
 | Mentors  |
 | :---:   | :-: | :-: |
 |Archishman Bandyopadhyay | Dimple Bhuta | Esha Gupta |
