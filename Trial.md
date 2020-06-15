@@ -17,10 +17,10 @@ We will be updating codes and weekly tasks regularly on this github link. <br/>
 
 ## Group Members (team2-cc02)
 
-| Mentors   |   |   |   |   |
-|---|---|---|---|---|
-| Archishman Bandyopadhyay  | Dimple Bhuta  |  Esha Gupta |   |   |
-|  archibanerjee1999@gmail.com |  dimple.bhuta@gmail.com | esha.sc1990@gmail.com  |   |   |
+||  Mentors  ||  
+|---|---|---|
+| Archishman Bandyopadhyay  | Dimple Bhuta  |  Esha Gupta |
+|  archibanerjee1999@gmail.com |  dimple.bhuta@gmail.com | esha.sc1990@gmail.com  |
 
 
 
